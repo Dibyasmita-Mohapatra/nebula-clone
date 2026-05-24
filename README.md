@@ -92,41 +92,83 @@ Nebula integrates Groq AI for:
 ---
 
 # 📂 Project Structure
+```bash
 nebula-clone/
 │
-├── assets/                 # Images, icons, splash assets
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── animations/
 │
-├── server/                 # Backend server & API logic
+├── server/
+│   ├── index.js
+│   ├── routes/
+│   ├── controllers/
+│   ├── package.json
+│   └── .env
 │
 ├── src/
 │   │
-│   ├── app/                # Application screens
+│   ├── app/
+│   │   ├── _layout.tsx
+│   │   ├── index.tsx
+│   │   ├── auth.tsx
+│   │   ├── login.tsx
+│   │   ├── signup.tsx
+│   │   ├── onboarding.tsx
+│   │   ├── confirmation.tsx
+│   │   │
 │   │   ├── home.tsx
-│   │   ├── chat.tsx
 │   │   ├── horoscope.tsx
+│   │   ├── chat.tsx
+│   │   ├── compatibility.tsx
+│   │   ├── mood.tsx
+│   │   ├── birthchart.tsx
+│   │   ├── tarot.tsx
+│   │   ├── meditation.tsx
+│   │   ├── profile.tsx
+│   │   │
+│   │   ├── aura.tsx
+│   │   ├── moon.tsx
+│   │   ├── dream.tsx
+│   │   ├── quiz.tsx
+│   │   ├── future.tsx
+│   │   ├── journal.tsx
+│   │   ├── calendar.tsx
+│   │   ├── affirmation.tsx
+│   │   ├── cosmic.tsx
 │   │   ├── zodiac.tsx
 │   │   ├── planets.tsx
-│   │   ├── constellation.tsx
-│   │   ├── tarot.tsx
-│   │   ├── mood.tsx
-│   │   ├── profile.tsx
-│   │   └── ...
+│   │   └── constellation.tsx
 │   │
-│   ├── components/         # Reusable UI components
+│   ├── components/
+│   │   ├── FloatingPlanet.tsx
+│   │   ├── FloatingStars.tsx
+│   │   ├── StreakCard.tsx
+│   │   ├── AchievementCard.tsx
+│   │   ├── PremiumCard.tsx
+│   │   └── UI Components
 │   │
-│   ├── firebase/           # Firebase configuration
+│   ├── firebase/
+│   │   └── config.ts
 │   │
-│   ├── utils/              # Helper functions & utilities
+│   ├── utils/
+│   │   ├── notifications.ts
+│   │   └── helpers.ts
 │   │
-│   └── hooks/              # Custom React hooks
+│   └── styles/
+│       └── globalStyles.ts
 │
 ├── .gitignore
 ├── README.md
 ├── app.json
 ├── eas.json
+├── expo-env.d.ts
 ├── package.json
-├── tsconfig.json
-└── expo-env.d.ts
+├── package-lock.json
+└── tsconfig.json
+```
+
 ```
 
 ---
