@@ -1,56 +1,240 @@
-# Welcome to your Expo app 👋
+# ✨ Nebula Clone — AI Astrology & Cosmic Wellness App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/React%20Native-Expo-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Firebase-Backend-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Groq-AI-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge" />
+</p>
 
-## Get started
+---
 
-1. Install dependencies
+# 🌌 Overview
 
-   ```bash
-   npm install
-   ```
+Nebula Clone is a futuristic AI-powered astrology and spiritual wellness mobile application inspired by modern astrology platforms like Nebula.
 
-2. Start the app
+The app delivers:
 
-   ```bash
-   npx expo start
-   ```
+* personalized horoscopes
+* AI astrology guidance
+* cosmic insights
+* spiritual wellness tools
+* zodiac-based experiences
+* immersive space-themed UI
 
-In the output, you'll find options to open the app in a
+Built using React Native + Expo with Firebase and Groq AI integration.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# 🚀 Core Features
 
-## Get a fresh project
+| Feature                  | Description                          |
+| ------------------------ | ------------------------------------ |
+| 🔐 Authentication        | Firebase login/signup system         |
+| 🔮 AI Astrology Chat     | Personalized AI astrologer assistant |
+| 🌙 Daily Horoscope       | Zodiac-based horoscope generation    |
+| 💕 Compatibility Checker | Relationship compatibility insights  |
+| ♈ Zodiac Explorer        | Interactive zodiac information       |
+| 🪐 Planet Explorer       | Planet meanings & astrology insights |
+| ✨ Constellation Explorer | SVG-based constellation UI           |
+| 🎴 Tarot Reading         | Spiritual tarot experience           |
+| 🌈 Aura Reading          | Energy & aura insights               |
+| 🌙 Moon Phase            | Cosmic moon tracking                 |
+| ☁ Dream Interpretation   | AI dream meaning system              |
+| 📖 Spiritual Journal     | Personal reflection journal          |
+| 📅 Cosmic Calendar       | Daily spiritual planning             |
+| 🔥 Streak System         | Daily engagement tracker             |
+| 🏆 Achievements          | User progression rewards             |
+| 🔔 Push Notifications    | Daily reminders                      |
+| 🎨 Animated UI           | Floating stars & cosmic effects      |
 
-When you're ready, run:
+---
+
+# 🧠 AI Features
+
+Nebula integrates Groq AI for:
+
+* astrology chat
+* spiritual guidance
+* cosmic predictions
+* personalized zodiac responses
+* emotional wellness insights
+
+---
+
+# 📱 Mobile Experience
+
+* Fully responsive UI
+* Smooth drawer navigation
+* Cosmic dark theme
+* SVG visualizations
+* Mobile-optimized scrolling
+* Realtime interactions
+* Animated floating elements
+
+---
+
+# 🛠 Tech Stack
+
+| Layer         | Technology                     |
+| ------------- | ------------------------------ |
+| Framework     | React Native + Expo            |
+| Navigation    | Expo Router                    |
+| Language      | TypeScript                     |
+| Backend       | Firebase                       |
+| Database      | Firestore                      |
+| AI            | Groq API                       |
+| Storage       | AsyncStorage                   |
+| Styling       | React Native + Linear Gradient |
+| Graphics      | React Native SVG               |
+| Notifications | Expo Notifications             |
+
+---
+
+# 📂 Project Structure
 
 ```bash
-npm run reset-project
+nebula-clone/
+│
+├── src/
+│   ├── app/
+│   │   ├── home.tsx
+│   │   ├── horoscope.tsx
+│   │   ├── chat.tsx
+│   │   ├── zodiac.tsx
+│   │   ├── planets.tsx
+│   │   ├── constellation.tsx
+│   │   └── ...
+│   │
+│   ├── components/
+│   ├── firebase/
+│   ├── utils/
+│   └── assets/
+│
+├── package.json
+├── app.json
+├── tsconfig.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+# ⚡ Installation
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## Clone Repository
 
-## Learn more
+```bash
+git clone https://github.com/YOUR_USERNAME/nebula-clone.git
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Open Project
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+cd nebula-clone
+```
 
-## Join the community
+## Install Dependencies
 
-Join our community of developers creating universal apps.
+```bash
+npm install
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Start Development Server
+
+```bash
+npx expo start
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file:
+
+```env
+EXPO_PUBLIC_GROQ_API_KEY=YOUR_API_KEY
+```
+
+---
+
+# 🔥 Firebase Setup
+
+Enable:
+
+* Authentication
+* Firestore Database
+
+Add Firebase config inside:
+
+```bash
+src/firebase/config.ts
+```
+
+---
+
+# 🎥 Demo Video
+
+Include:
+
+* App walkthrough
+* AI chat demo
+* Horoscope generation
+* Cosmic UI showcase
+* Mobile navigation demo
+
+---
+
+# 📸 Screenshots
+
+Add screenshots for:
+
+* Home Screen
+* Horoscope
+* AI Chat
+* Zodiac Explorer
+* Cosmic Features
+
+---
+
+# 🧩 Challenges Solved
+
+* AI API integration
+* Mobile performance optimization
+* Drawer navigation architecture
+* Firebase authentication flow
+* Responsive mobile layouts
+* Smooth animation rendering
+
+---
+
+# 🌟 Future Improvements
+
+* Real birth chart calculations
+* Voice-enabled astrologer
+* Social astrology community
+* Advanced compatibility engine
+* Premium subscription features
+
+---
+
+# 👨‍💻 Developer
+
+### Dibyasmita Mohapatra
+
+Full Stack & Mobile App Developer passionate about futuristic mobile experiences and AI-powered applications.
+
+---
+
+# ⭐ Support
+
+If you liked this project:
+
+* ⭐ Star the repository
+* 🍴 Fork the project
+* 📢 Share feedback
+
+---
+
+# 📜 License
+
+Built for educational, hackathon, and innovation purposes.
