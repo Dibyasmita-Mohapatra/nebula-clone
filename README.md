@@ -92,29 +92,41 @@ Nebula integrates Groq AI for:
 ---
 
 # 📂 Project Structure
-
-```bash
 nebula-clone/
 │
+├── assets/                 # Images, icons, splash assets
+│
+├── server/                 # Backend server & API logic
+│
 ├── src/
-│   ├── app/
+│   │
+│   ├── app/                # Application screens
 │   │   ├── home.tsx
-│   │   ├── horoscope.tsx
 │   │   ├── chat.tsx
+│   │   ├── horoscope.tsx
 │   │   ├── zodiac.tsx
 │   │   ├── planets.tsx
 │   │   ├── constellation.tsx
+│   │   ├── tarot.tsx
+│   │   ├── mood.tsx
+│   │   ├── profile.tsx
 │   │   └── ...
 │   │
-│   ├── components/
-│   ├── firebase/
-│   ├── utils/
-│   └── assets/
+│   ├── components/         # Reusable UI components
+│   │
+│   ├── firebase/           # Firebase configuration
+│   │
+│   ├── utils/              # Helper functions & utilities
+│   │
+│   └── hooks/              # Custom React hooks
 │
-├── package.json
+├── .gitignore
+├── README.md
 ├── app.json
+├── eas.json
+├── package.json
 ├── tsconfig.json
-└── README.md
+└── expo-env.d.ts
 ```
 
 ---
